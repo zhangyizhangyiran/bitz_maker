@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccente">#1B34D8</color>
+    <color name="bg_treaty">#24A487</color>
+    <color name="treaty_green">#24A487</color>
+    <color name="treaty_bg_but_buy">#24A487</color>
+    <color name="treaty_bg_but_sell">#DA3D68</color>
+    <color name="treaty_red">#da3d68</color>
+    <color name="treaty_select_cangwei_set">#24A487</color>
+</resources>

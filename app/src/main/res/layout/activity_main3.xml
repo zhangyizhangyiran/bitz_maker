@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/main_lin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.example.myapplication.view.PositionsLayout
+        android:id="@+id/one_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+    </com.example.myapplication.view.PositionsLayout>
+
+
+    <com.example.myapplication.view.PositionsLayout
+        android:id="@+id/two_two"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+    </com.example.myapplication.view.PositionsLayout>
+
+
+</LinearLayout>
