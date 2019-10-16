@@ -53,6 +53,12 @@ QQ：1258412192(bitz_maker)
 
 邮箱：bitz_maker@sina.com
 
+## 打赏方式
+觉得可以的话,可以打赏一下。嘻嘻嘻
+
+ * 0xe90308D27fE8eBadAdEab48Fc66944e44371285c  (ETH)
+ * 0xe90308D27fE8eBadAdEab48Fc66944e44371285c  (USDT)
+
 
 ## 寄语
 本策略是本人闲暇时间根据自己经验总结的一套赚maker简单策略,投资有风险,交易需谨慎！！！
