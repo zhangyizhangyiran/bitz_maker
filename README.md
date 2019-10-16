@@ -56,6 +56,7 @@ QQ：1258412192(bitz_maker)
 ## 打赏方式
 觉得可以的话,可以打赏一下。嘻嘻嘻
 
+ * 31jep7jmoVUdM8FiWAvSNygGnaW8yqn7i7 (BTC)
  * 0xe90308D27fE8eBadAdEab48Fc66944e44371285c  (ETH)
  * 0xe90308D27fE8eBadAdEab48Fc66944e44371285c  (USDT)
 
