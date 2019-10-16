@@ -39,7 +39,7 @@
 
 ## APP下载方式
 
-[Bitz_maker机器人](https://github-production-release-asset-2e65be.s3.amazonaws.com/215492477/d2157580-f037-11e9-8fb2-f1e584d6d548?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20191016%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191016T120733Z&X-Amz-Expires=300&X-Amz-Signature=166b6c55a4d31)
+[机器人APK](https://github.com/zhangyizhangyiran/bitz_maker/blob/master/apk/app-release.apk?raw=true)
 
 
 
