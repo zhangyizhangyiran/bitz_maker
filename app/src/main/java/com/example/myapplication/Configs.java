@@ -37,4 +37,32 @@ public class Configs {
     public static String CANCELCONTRACTTRADE = BASEUEL + "/Contract/cancelContractTrade";
 
 
+    public static void setBASERL(String baserl) {
+        //获取账户信息
+        GETACCOUNTINFO = baserl + "/Contract/getContractAccountInfo";
+        //下单接口
+        GETPLACEORDER = baserl + "/Contract/addContractTrade";
+        //取消委托
+        CANCELORDE = baserl + "/Contract/cancelContractTrade";
+        //获取当前未平仓位
+        MYACTIVEPOSITIONS = baserl + "/Contract/getContractActivePositions";
+        //获取我的活动委托
+        ACTIVEORDERS = baserl + "/Contract/getContractOrder";
+        //获取合约交易市场列表
+        GETCONTRACTCOIN = baserl + "/Market/getContractCoin";
+        //    public static String GETCONTRACTCOIN = "https://apiv2.bitz.com/Market/getContractCoin";
+        CONTRACTORDERBOOK = baserl + "/Market/getContractOrderBook";
+        //合约详情
+        CONTRACTTICKERS = baserl + "/Market/getContractTickers";
+
+        //获取已平仓位列表
+        CONTRACTMYPOSITIONS = baserl + "/Contract/getContractMyPositions";
+        //获取当前仓位
+        CONTRACTACTIVEPOSITIONS = baserl + "/Contract/getContractActivePositions";
+        //合约交易取消委托
+        CANCELCONTRACTTRADE = baserl + "/Contract/cancelContractTrade";
+
+    }
+
+
 }

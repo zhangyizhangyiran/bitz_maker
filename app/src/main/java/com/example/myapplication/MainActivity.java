@@ -83,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView xiandan_sudu;
     private TextView xiandan_wei_tuo;
     private TextView xiandan_ganggan;
+    private TextView app_net_test;
+    private TextView zhuangtai;
 
     private String nextFundingRate;
     private String count;
@@ -212,6 +214,14 @@ public class MainActivity extends AppCompatActivity {
 
     private void initOncilk() {
 
+
+        app_net_test.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, NetworkTest.class));
+            }
+        });
+
         //开始跑
         activity_mian_tv_open.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -221,6 +231,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "请先配置策略", Toast.LENGTH_SHORT).show();
 
                 } else {
+                    zhuangtai.setText("开");
                     handlers.removeCallbacks(runnables);
                     handlers.postDelayed(runnables, 0);
                 }
@@ -232,7 +243,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 handlers.removeCallbacks(runnables);
-
+                zhuangtai.setText("关");
             }
         });
 
@@ -300,6 +311,8 @@ public class MainActivity extends AppCompatActivity {
         xiandan_sudu = (TextView) findViewById(R.id.xiandan_sudu);
         xiandan_wei_tuo = (TextView) findViewById(R.id.xiandan_wei_tuo);
         xiandan_ganggan = (TextView) findViewById(R.id.xiandan_ganggan);
+        zhuangtai = (TextView) findViewById(R.id.zhuangtai);
+        app_net_test = (TextView) findViewById(R.id.app_net_test);
 
 
         treaty_framelayout = (FrameLayout) findViewById(R.id.treaty_framelayout);
@@ -383,7 +396,7 @@ public class MainActivity extends AppCompatActivity {
         contractCoinAdapter.setOnItemClickListener(new BaseQuickAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(BaseQuickAdapter adapter, View view, int position) {
-
+                zhuangtai.setText("关");
                 drawer_layout.closeDrawers();
                 Log.i("wejfkwjefniwuef", "1");
 

@@ -23,7 +23,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NetworkTest"></activity>
+        <activity
+            android:name=".NetworkTest"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".EntrustHistoryActivity"
             android:theme="@style/AppTheme.NoActionBar" />
