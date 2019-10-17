@@ -49,7 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="30dp"
-            android:text="7d082c4f4a4bfd80ae84defaa5f7269d" />
+            android:text="" />
 
     </LinearLayout>
 
@@ -68,13 +68,12 @@
             android:textSize="@dimen/sp_16" />
 
 
-
         <EditText
             android:id="@+id/activity_setting_ed_siyao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="30dp"
-            android:text="3w1oFZHoWEBeEbY1FJ6SZG0VCXW7rekfTOUCFpZRi2pcdQB0bHqViOFD3bUZCIsU" />
+            android:text="" />
 
     </LinearLayout>
 
