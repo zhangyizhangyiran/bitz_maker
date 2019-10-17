@@ -39,7 +39,7 @@
 
 ## APP下载方式
 
-[机器人APK](https://github.com/zhangyizhangyiran/bitz_maker/blob/master/apk/app-release.apk?raw=true)
+[机器人APK](https://raw.githubusercontent.com/zhangyizhangyiran/bitz_maker/master/apk/app-release.apk)
 
 
 
